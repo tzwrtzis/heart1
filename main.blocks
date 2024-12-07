@@ -1,13 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="17daVy$P2gUAUvh`K,8@" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="}8jJ;|FN(3r|gqm1mrOS"><field name="LEDS">`
-        # . . . . 
-        # . . . . 
-        # . . . . 
-        # . . . . 
-        # # # . .
-        `</field><next><block type="basic_show_icon" id="X:-8Qe@|22{tL=3{c6EM"><field name="i">IconNames.Heart</field></block></next></block></statement></block><block type="controls_if" id="~NQch2kd^7;!Doh!=I1L" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="345" y="50"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="jorF~:Kagpw`zcDT3J3E" disabled-reasons="MANUALLY_DISABLED"><field name="BOOL">TRUE</field></shadow></value></block><block type="device_button_event" id="DR7anCSqLpxMA$V#1a?*" x="-31" y="346"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="qfZN69/)^*k6=YB+VnA1"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="17daVy$P2gUAUvh`K,8@" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="SIwvh35V@)`A)uBS3nk~"><field name="LEDS">`
+        . # . . . 
+        . # . . . 
+        . # . . . 
+        . # . . . 
+        . # # # .
+        `</field><next><block type="music_playable_play" id="@`jH5*q[-=d]4HwtyWmQ"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="Ne#X2%_fH7N.l7sFXt$C"><value name="melody"><shadow type="melody_editor" id="+CV.?=wZt#7Lv=v=7d!3"><field name="melody">"C5 B A G F G A B "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="h.5B5Ve^meX@D73Y#56?"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">90</field></shadow></value></shadow></value><next><block type="music_playable_play" id="NHYb5nK4gc|aH/ZGn{B]"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="I[zAmxMah$y5yKt4ObyK"><value name="melody"><shadow type="melody_editor" id="IMfeQl_J[7FO0}`15jJ#"><field name="melody">"E D E D E D E D "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="j!sfTA+d2/Mf0A~~?Jlw"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">90</field></shadow></value></shadow></value><next><block type="device_show_leds" id="hGl[TJ%+kgNTGZ~35-l0"><field name="LEDS">`
         # # # . . 
         # . . . . 
+        # # . . . 
         # . . . . 
-        . . . . . 
-        . . . . .
-        `</field></block></statement></block><block type="input_logo_event" id="|LAhlJh(G1ZWPKT:P[0F" x="363" y="452"><field name="action">TouchButtonEvent.Pressed</field></block></xml>
+        # . . . .
+        `</field><next><block type="music_playable_play" id="53xU,Cs/aC_m[CgZ@P%5"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id=".x-Md[a=%6![nto+g:{L"><value name="melody"><shadow type="melody_editor" id="g`yk?m]^})~E9PxFf~aE"><field name="melody">"C5 B A G F G A B "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="afM;jsAR-]oo2dUk_r+/"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">90</field></shadow></value></shadow></value><next><block type="music_playable_play" id="T8q37zR=5f:x]GkxfRXA"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="f+bU22Jh4dv3f[n!xGj:"><value name="melody"><shadow type="melody_editor" id="),,GQ7vfyHagxPE=u?sc"><field name="melody">"G B A G C5 B A B "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="^cQzzOE-Evs;pdH0-Gn#"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">90</field></shadow></value></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
